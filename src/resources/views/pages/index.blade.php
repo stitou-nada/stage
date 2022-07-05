@@ -10,7 +10,7 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner text-light carousel-zoom">
                 <div class="item active">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/2440x1578.png);"></div>
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/header1.jpg);"></div>
                     <div class="box-table shadow dark">
                         <div class="box-cell">
                             <div class="container">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/2440x1578.png);"></div>
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/header2.jpg);"></div>
                     <div class="box-table shadow dark">
                         <div class="box-cell">
                             <div class="container">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/2440x1578.png);"></div>
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/header3.jpg);"></div>
                     <div class="box-table shadow dark">
                         <div class="box-cell">
                             <div class="container">
