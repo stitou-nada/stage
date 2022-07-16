@@ -20,4 +20,4 @@ Route::get('/index', function () {
 
 route::get('/produit',[produit::class,'afficher_produit']);
 route::get('/detailProduit/{id}',[produit::class,'afficher_detail_produit']);
-route::post('/msg',[produit::class,'message']);
+route::get('/msg',[produit::class,'message_wh']);

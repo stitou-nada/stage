@@ -25,16 +25,20 @@ class produit extends Controller
       }
 
 
-      function message(Request $request){
-        $nom =$request->input('nom');
-        $tele=$request->input('tele');
-        $produit=$request->input('produit');
-        $text="hello".$nom."je veux ce produit s'il vous plait".$produit;
-        if ($request->input('tele')) {
+      function message_wh(Request $request){
+        // $nom =$request->input('nom');
+        // $tele=$request->input('tele');
+        // $produit=$request->input('produit');
+        // $text="hello".$nom."je veux ce produit s'il vous plait".$produit;
+        // if ($request->input('tele')) {
             
             
-            header("Location:https://api.whatsapp.com/send/?phone=".$tele."&text=".$text."&type=phone_number&app_absent=0");
-        }
+            // header("Location: https://api.whatsapp.com/send/?phone=".$tele."&text=".$text."&type=phone_number&app_absent=0");
+            
+            if(!empty($request)){
+            header("Location: https://api.whatsapp.com/send/?phone=2112122222&text=hellooo&type=phone_number&app_absent=0");
+        // 
+      }
 
       }
 }

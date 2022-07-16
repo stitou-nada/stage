@@ -22,10 +22,28 @@
             </div>
         </div>
     </div>
-    
+ 
+    @php
+     
+     if(isset($_GET['submit'])){
+
+        
+        $nom = $_GET['nom'];
+     header("https://www.w3schools.com");
+        
+
+        die();
+        }
+
+
+    @endphp
+
     <!-- End Breadcrumb -->
 
+
     <!-- Start Team
+
+i
     ============================================= -->
     
       <!-- Start Our About
@@ -48,13 +66,13 @@
                         {{$value->prix_produit}}  
                     </p>
                    
-                    <form method="POST">
-                        @csrf
+                    <form method="GET" >
+                       
                         <input type="text"  name="nom" class="form-control">
                         <input type="text" name="tele" class="form-control">
                         <input type="hidden" name="produit" class="form-control">
-                        <input type="button" value="hhh">
-                        <a href="msg" class="btn btn-dark border btn-md" data-animation="animated slideInUp">Acheter</a>
+                        <input type="submit"  name="submit" value="ddddhhh">
+                        <a  class="btn btn-dark border btn-md" data-animation="animated slideInUp">Acheter</a>
                     </form>
                    
                 </div>
