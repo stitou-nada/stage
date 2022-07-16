@@ -150,7 +150,7 @@
 <script src="{{asset('assets/js/wow.min.js')}}"></script>
 <script src="{{asset('assets/js/progress-bar.min.js')}}"></script>
 <script src="{{asset('assets/js/isotope.pkgd.min.js')}}"></script>
-{{-- <script src="{{asset('assets/js/imagesloaded.pkgd.min.js')}}"></script> --}}
+<script src="{{asset('assets/js/imagesloaded.pkgd.min.js')}}"></script>
 <script src="{{asset('assets/js/count-to.js')}}"></script>
-{{-- <script src="{{asset('assets/js/bootsnav.js')}}"></script> --}}
+<script src="{{asset('assets/js/bootsnav.js')}}"></script>
 <script src="{{asset('assets/js/main.js')}}"></script>
