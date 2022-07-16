@@ -75,7 +75,7 @@
                                             <div class="input-group">
                             
                                                 <input id="x_card_code"  value=""
-                                                             type="file" name="photo_place">
+                                                             type="file" name="photo_produit">
 
                                             </div>
                                         </div>   

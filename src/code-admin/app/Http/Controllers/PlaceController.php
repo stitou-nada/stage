@@ -46,16 +46,17 @@ class PlaceController extends Controller
     {
         $nom=$request->input('nom_produit');
         $description=$request->input('description_produit');
+        $prix=$request->input('prix_produit');
         $id_categorie=$request->input('id_categorie');
         if($request->hasfile('photo_produit'))
          {
              $file = $request->file('photo_produit');
              $extenstion = $file->getClientOriginalExtension();
              $filename = time().'.'.$extenstion;
-             $file->move('places', $filename);
+             $file->move('produits', $filename);
             $photo = $filename;
          }
-         $inserte = DB::insert('insert into produits(nom_produit,photo_produit,description_produit,id_categorie) value(?,?,?,?,?)',[$nom,$photo,$description,$id_categorie]);
+         $inserte = DB::insert('insert into produits(nom_produit,photo_produit,description_produit,prix_produit,id_categorie) value(?,?,?,?,?)',[$nom,$photo,$description,$prix,$id_categorie]);
          if($inserte){
           return redirect('afficher-produit');
           
@@ -106,6 +107,7 @@ class PlaceController extends Controller
         $nom = $request->input('nom_produit');
         $id_categorie= $request->input('id_categorie');
         $description = $request->input('description_produit');
+        $prix = $request->input('prix_produit');
         
 
         if ( $request->hasFile('photo_produit')) {
@@ -121,7 +123,7 @@ class PlaceController extends Controller
 
        DB::table('produits')
        ->where('id_produit',$id)
-       -> update(['nom_produit'=>$nom,'id_categorie'=>$id_categorie,'description_produit'=>$description,'photo_produit'=>$image]); 
+       -> update(['nom_produit'=>$nom,'id_categorie'=>$id_categorie,'description_produit'=>$description,'prix_produit'=>$prix,'photo_produit'=>$image]); 
 
 
        return redirect('afficher-produit');

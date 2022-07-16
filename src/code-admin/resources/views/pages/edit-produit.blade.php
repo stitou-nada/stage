@@ -45,7 +45,7 @@
                                                 <select name="id_categorie" id="select" class="form-control">                                    
                                                 <option selected value="{{$value->id_categorie}}">{{$value->nom_categorie}}</option>
                                                 
-                                                @forelse ($place as $valuee)
+                                                @forelse ($produit as $valuee)
                                                      
                                                     
                                                   <option value="{{$valuee->id_categorie}}">{{$valuee->nom_categorie}} </option>
