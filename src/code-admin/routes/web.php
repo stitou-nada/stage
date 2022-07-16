@@ -44,6 +44,6 @@ Route::get('/', function () {
 // route::get('/afficher',[CategorieController::class,'index']);
    
 Route::resource('afficher-categorie', CategorieController::class);
-Route::resource('afficher-endroit', PlaceController::class);
+Route::resource('afficher-produit', PlaceController::class);
 
 

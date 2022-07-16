@@ -29,7 +29,7 @@
                     </a>
                     <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
-                            <a class="nav-link" href="{{route('afficher-endroit.index')}}">Gestions des endroits</a>
+                            <a class="nav-link" href="{{route('afficher-produit.index')}}">Gestions des produits</a>
                             <a class="nav-link" href="{{route('afficher-categorie.index')}}">Gestions des categories</a>
                         </nav>
                     </div>
@@ -40,7 +40,7 @@
                     </a>
                     <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="{{route('afficher-endroit.create')}}">Ajouter endroit</a>
+                                    <a class="nav-link" href="{{route('afficher-produit.create')}}">Ajouter produit</a>
                                     <a class="nav-link" href="{{route('afficher-categorie.create')}}">Ajouter categorie</a>
                                 </nav>
                                

@@ -18,7 +18,7 @@ class PlaceController extends Controller
        ->select('*')
        ->join('categories','produits.id_categorie','=' ,'produits.id_categorie')
        ->get();
-       return view('pages.tableau-endroit', compact('produit'));
+       return view('pages.tableau-produit', compact('produit'));
     }
    
 
@@ -32,7 +32,7 @@ class PlaceController extends Controller
         $categorie =DB::table('categories')
         ->select('id_categorie','nom_categorie')
         ->get();
-        return view('pages.inserte-endroit', compact('categorie'));
+        return view('pages.inserte-produit', compact('categorie'));
         
     }
 
@@ -55,9 +55,9 @@ class PlaceController extends Controller
              $file->move('places', $filename);
             $photo = $filename;
          }
-         $inserte = DB::insert('insert into places(nom_produit,photo_produit,description_produit,id_categorie) value(?,?,?,?,?)',[$nom,$photo,$description,$id_categorie]);
+         $inserte = DB::insert('insert into produits(nom_produit,photo_produit,description_produit,id_categorie) value(?,?,?,?,?)',[$nom,$photo,$description,$id_categorie]);
          if($inserte){
-          return redirect('afficher-endroit');
+          return redirect('afficher-produit');
           
        }
 
@@ -90,7 +90,7 @@ class PlaceController extends Controller
       $produit = DB::table('categories')
         ->select("*")
         ->get();
-      return view('pages.edit-endroit', compact('edit',"produit"));
+      return view('pages.edit-produit', compact('edit',"produit"));
 
     }
 
@@ -124,7 +124,7 @@ class PlaceController extends Controller
        -> update(['nom_produit'=>$nom,'id_categorie'=>$id_categorie,'description_produit'=>$description,'photo_produit'=>$image]); 
 
 
-       return redirect('afficher-endroit');
+       return redirect('afficher-produit');
     }
 
     /**
@@ -139,7 +139,7 @@ class PlaceController extends Controller
       ->where('id_produit',$id)
       ->delete();
       if ($inserte) {
-         return redirect('afficher-endroit');
+         return redirect('afficher-produit');
       }
     }
 }
