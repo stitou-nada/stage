@@ -48,13 +48,13 @@
                         {{$value->prix_produit}}  
                     </p>
                    
-                    <form >
+                    <form method="POST">
                         @csrf
                         <input type="text"  name="nom" class="form-control">
                         <input type="text" name="tele" class="form-control">
                         <input type="hidden" name="produit" class="form-control">
-                        
-                        <a href="message" class="btn btn-dark border btn-md" data-animation="animated slideInUp">Acheter</a>
+                        <input type="button" value="hhh">
+                        <a href="msg" class="btn btn-dark border btn-md" data-animation="animated slideInUp">Acheter</a>
                     </form>
                    
                 </div>

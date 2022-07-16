@@ -32,8 +32,9 @@ class produit extends Controller
         $text="hello".$nom."je veux ce produit s'il vous plait".$produit;
         if ($request->input('tele')) {
             
-            "https://api.whatsapp.com/send/?phone=".$tele."&text=".$text."&type=phone_number&app_absent=0";
+            
+            header("Location:https://api.whatsapp.com/send/?phone=".$tele."&text=".$text."&type=phone_number&app_absent=0");
         }
-        
+
       }
 }
