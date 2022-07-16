@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/index', function () {
     return view('pages.index');
 });
-// Route::get('/produit', function () {
-//     return view('pages.produit');
-// });
+
 route::get('/produit',[produit::class,'afficher_produit']);
+route::get('/detailProduit/{id}',[produit::class,'afficher_detail_produit']);
+route::get('/message',[produit::class,'message']);
