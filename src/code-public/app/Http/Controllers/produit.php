@@ -7,6 +7,11 @@ use Illuminate\Support\Facades\DB;
 
 class produit extends Controller
 {
+
+  function login(){
+
+    return view('pages.login');
+  }
     function afficher_produit(){
 
         $produits=DB::table('produits')

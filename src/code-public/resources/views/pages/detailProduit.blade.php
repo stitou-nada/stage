@@ -23,20 +23,9 @@
         </div>
     </div>
  
-    @php
-     
-     if(isset($_GET['submit'])){
-
-        
-        $nom = $_GET['nom'];
-     header("https://www.w3schools.com");
-        
-
-        die();
-        }
 
 
-    @endphp
+  
 
     <!-- End Breadcrumb -->
 
@@ -66,11 +55,11 @@ i
                         {{$value->prix_produit}}  
                     </p>
                    
-                    <form method="GET" >
+                    <form method="post" action="{{route('login')}}" >
                        
-                        <input type="text"  name="nom" class="form-control">
-                        <input type="text" name="tele" class="form-control">
-                        <input type="hidden" name="produit" class="form-control">
+                       
+                       
+                        <input type="hidden" name="produit" value="{{$value->nom_produit}}" class="form-control">
                         <input type="submit"  name="submit" value="ddddhhh">
                         <a  class="btn btn-dark border btn-md" data-animation="animated slideInUp">Acheter</a>
                     </form>
