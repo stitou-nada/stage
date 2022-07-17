@@ -55,13 +55,13 @@ i
                         {{$value->prix_produit}}  
                     </p>
                    
-                    <form method="post" action="{{route('login')}}" >
+                    <form method="post" action="" >
                        
                        
                        
                         <input type="hidden" name="produit" value="{{$value->nom_produit}}" class="form-control">
                         <input type="submit"  name="submit" value="ddddhhh">
-                        <a  class="btn btn-dark border btn-md" data-animation="animated slideInUp">Acheter</a>
+                        <a  href="{{route('login')}}" class="btn btn-dark border btn-md" data-animation="animated slideInUp">Acheter</a>
                     </form>
                    
                 </div>

@@ -1,12 +1,24 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Session;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
 class produit extends Controller
 {
+
+
+  function userlogin(Request $request){
+    $nom = $request->input("nom");
+    $tele = $request->input("tele");
+    $data= ["nom"=>$nom,
+    'tele'=>$tele
+  ];
+    Session::put("user",$data);
+    echo session('user');
+
+  }
 
   function login(){
 
