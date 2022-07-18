@@ -69,7 +69,26 @@
                 <div class="attr-nav">
                     <ul>
                         <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                        <li class="btn"><a href="#">Connexion</a></li>
+
+
+                        @if (session('user') !=null)
+                    
+                
+                        @php
+                        
+                          $session = session('user');
+               
+               
+                          
+                          
+                        @endphp
+               
+               <li class=""><a href="{{route('login')}}">{{$session['nom']}}</a></li>
+                       
+              @else
+               
+               <li class="btn"><a href="{{route('login')}}">Connexion</a></li>
+               @endif
                     </ul>
                 </div>        
                 <!-- End Atribute Navigation -->

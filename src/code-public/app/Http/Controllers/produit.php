@@ -10,13 +10,14 @@ class produit extends Controller
 
 
   function userlogin(Request $request){
-    $nom = $request->input("nom");
-    $tele = $request->input("tele");
-    $data= ["nom"=>$nom,
-    'tele'=>$tele
-  ];
-    Session::put("user",$data);
-    echo session('user');
+    $nom = $request->input();
+    // $nom = $request->input("nom");
+  //   $tele = $request->input("tele");
+  //   $data= ["nom"=>$nom,
+  //   'tele'=>$tele
+  // ];
+    Session::put("user",$nom);
+    return view('pages.index');
 
   }
 

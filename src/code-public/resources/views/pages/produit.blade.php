@@ -30,6 +30,36 @@
     <div class="team-area default-padding bottom-less">
         <div class="container">
             <div class="row">
+                
+            
+            
+                <h1></h1>
+
+
+               
+{{-- @forelse ($session as $d)
+
+         {{$d['nom']}}
+             
+         @empty
+             
+         @endforelse --}}
+                
+{{-- 
+         @if (session('user')==null)
+        <h1>session is null</h1>
+             
+         @else
+             
+           {{$session = session('user');}}
+
+
+           
+           {{print_r($session['nom']);}}
+         @endif
+                 --}}
+                
+                
                 @forelse ($produits as $value)
                 
                 <div class="team-items text-center">
