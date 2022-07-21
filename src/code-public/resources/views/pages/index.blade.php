@@ -17,10 +17,10 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="content">
-                                            <h3 data-animation="animated slideInRight">Let's grow together</h3>
-                                            <h1 data-animation="animated slideInLeft">Build <span>innovative</span> industrial solutions</h1>
-                                            <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">Our Services</a>
-                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Learn more</a>
+                                            <h3 data-animation="animated slideInRight">Suivi Des Projets</h3>
+                                            <h1 data-animation="animated slideInDown">Et <span>Coordination</span> Traveuax De Génie Civil Télécommunication</h1>
+                                           
+                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Connectez-vous</a>
                                         </div>
                                     </div>
                                 </div>
@@ -36,10 +36,10 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="content">
-                                            <h3 data-animation="animated slideInUp">Since 1985</h3>
-                                            <h1 data-animation="animated slideInDown">Expert knowledge in <span>Technical</span> Solutions</h1>
-                                            <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">Our Services</a>
-                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Learn more</a>
+                                            <h3 data-animation="animated slideInUp">Suivi des projets</h3>
+                                            <h1 data-animation="animated slideInDown">Et <span>Coordination</span> Traveuax de génie civil Télécommunication</h1>
+                                           
+                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Connectez-vous</a>
                                         </div>
                                     </div>
                                 </div>
@@ -55,10 +55,10 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="content">
-                                            <h3 data-animation="animated slideInLeft">Expert in</h3>
-                                            <h1 data-animation="animated slideInRight">Empowering oil Refiling & <span>Processing</span> plants</h1>
-                                            <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">Our Services</a>
-                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Learn more</a>
+                                            <h3 data-animation="animated slideInUp">Suivi des projets</h3>
+                                            <h1 data-animation="animated slideInDown">Et <span>Coordination</span> Traveuax de génie civil Télécommunication</h1>
+                                           
+                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Connectez-vous</a>
                                         </div>
                                     </div>
                                 </div>
@@ -88,19 +88,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 info-content">
-                    <h1>We offer product design, <strong>manufacturing and engineering</strong> management services.</h1>
+                    <h1>Nous offrons la conception de produits, <strong>fabrication et ingénierie</strong> services de gestion.</h1>
                     <p>
-                        Seven world think timed while her. Spoil large oh he rooms on since an. Am up unwilling eagerness perceived incommode. Perceived end knowledge certainly day sweetness why cordially. Ask quick six seven offer see among. Handsome met debating sir dwelling age material. As style lived he worse dried. Offered related so visitor we private removed. Moderate do subjects to distance. Conviction up partiality as delightful is discovered. Yet jennings resolved disposed. 
+                        Sept mondes pensent chronométrés pendant qu'elle. Gâtez les grandes chambres oh he depuis un. Je suis un empressement réticent perçu mal à l'aise. Connaissance de fin perçue certainement douceur du jour pourquoi cordialement. Demandez une offre rapide de six sept voir parmi. Nous nous sommes rencontrés en train de débattre du matériel de l'âge d'or. Au fur et à mesure qu'il vivait, il était séché. Offert en relation avec le visiteur, nous avons privé supprimé. Modéré faire des sujets à distance. La conviction de la partialité au fur et à mesure qu'elle est découverte. Pourtant jennings résolut tout.
                     </p>
-                    <div class="author">
-                        <div class="thumb">
-                            <img src="assets/img/800x800.png" alt="Thumb">
-                        </div>
-                        <div class="info">
-                            <h4>Ahmed Kamal - <strong>Chairman</strong></h4>
-                            <img src="assets/img/signature.png" alt="signature">
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="col-md-6 right-content services">
                     <div class="row">
@@ -165,7 +157,7 @@
         <div class="container-full">
             <div class="row">
                 <div class="content-box">
-                    <div class="col-md-6 thumb bg-cover" style="background-image: url(assets/img/2440x1578.png);"></div>
+                    <div class="col-md-6 thumb bg-cover" style="background-image: url(assets/img/about1.jpg);"></div>
                     <div class="col-md-6 info">
                         <h4>Why Choose Us</h4>
                         <h2>The Best Solution for all Industrial & Factory Businesses</h2>
@@ -218,81 +210,18 @@
                 <div class="col-md-12">
                     <div class="services-items services-carousel-3-col owl-carousel owl-theme text-center inc-overlay">
                         <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumbs overlay">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="info">
-                                  <h4>Oil and Gass Energy</h4>
-                                  <p>
-                                      Depend repair met before man admire see and. An he observe be it covered delight hastily message.
-                                  </p>
-                                  <a href="#">Read More</a>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <div class="content">
-                                    <div class="top-info">
-                                        <h4><a href="#">Oil and Gass Energy</a></h4>
-                                    </div>
-                                    <div class="bottom">
-                                        <i class="flaticon-valve"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        
                         <!-- End Single Item -->
                         <!-- Single Item -->
                         <div class="item">
                             <div class="thumbs overlay">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="info">
-                                  <h4>Agriculture Automation</h4>
-                                  <p>
-                                      Depend repair met before man admire see and. An he observe be it covered delight hastily message.
-                                  </p>
-                                  <a href="#">Read More</a>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <div class="content">
-                                    <div class="top-info">
-                                        <h4><a href="#">Agriculture Automation</a></h4>
-                                    </div>
-                                    <div class="bottom">
-                                        <i class="flaticon-tractor-1"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumbs overlay">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="info">
-                                  <h4>Civil Engineering</h4>
-                                  <p>
-                                      Depend repair met before man admire see and. An he observe be it covered delight hastily message.
-                                  </p>
-                                  <a href="#">Read More</a>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <div class="content">
-                                    <div class="top-info">
-                                        <h4><a href="#">Civil Engineering</a></h4>
-                                    </div>
-                                    <div class="bottom">
-                                        <i class="flaticon-mayan-pyramid"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumbs overlay">
-                                <img src="assets/img/800x600.png" alt="Thumb">
+                                <img src="assets/img/ser3.jpg" alt="Thumb">
                                 <div class="info">
                                   <h4>Bridge Construction</h4>
                                   <p>
@@ -316,7 +245,7 @@
                         <!-- Single Item -->
                         <div class="item">
                             <div class="thumbs overlay">
-                                <img src="assets/img/800x600.png" alt="Thumb">
+                                <img src="assets/img/ser2.jpg" alt="Thumb">
                                 <div class="info">
                                   <h4>Mechanical Engineering</h4>
                                   <p>
@@ -340,7 +269,7 @@
                         <!-- Single Item -->
                         <div class="item">
                             <div class="thumbs overlay">
-                                <img src="assets/img/800x600.png" alt="Thumb">
+                                <img src="assets/img/ser2.jpeg" alt="Thumb">
                                 <div class="info">
                                   <h4>Power & Energy</h4>
                                   <p>
@@ -370,265 +299,14 @@
 
     <!-- Start Portfolio 
     ============================================= -->
-    <div class="portfolio-area info-less default-padding bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="site-heading text-center">
-                        <h4>Recent Work</h4>
-                        <h2>Complete Cases</h2>
-                        <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="mix-item-menu">
-                        <button class="active" data-filter="*">All</button>
-                        <button data-filter=".industry">Industry</button>
-                        <button data-filter=".renovation">Renovation</button>
-                        <button data-filter=".petroleum">Petroleum</button>
-                        <button data-filter=".metarials">Metarials</button>
-                        <button data-filter=".construction">Construction</button>
-                    </div>
-                    <!-- End Mixitup Nav-->
-                    <div class="row magnific-mix-gallery masonary text-left">
-                        <div id="portfolio-grid" class="portfolio-items col-3">
-                            <div class="portfolio-items">
-                                <!-- Single Item -->
-                                <div class="pf-item construction">
-                                    <div class="effect-up">
-                                        <img src="assets/img/800x600.png" alt="Thumb">
-                                        <div class="overlay">
-                                            <h4>Thread Grinding</h4>
-                                            <div class="link">
-                                                <a href="assets/img/800x600.png" class="item popup-link"><i class="fa fa-search"></i></a>
-                                                <a href="#"><i class="fas fa-link"></i></a>
-                                            </div>
-                                        </div>           
-                                    </div>
-                                </div>
-                                <!-- End Single Item -->
-                                <!-- Single Item -->
-                                <div class="pf-item metarials renovation">
-                                    <div class="effect-up">
-                                        <img src="assets/img/800x600.png" alt="Thumb">
-                                        <div class="overlay">
-                                            <h4>Spring Renovation</h4>
-                                            <div class="link">
-                                                <a href="assets/img/800x600.png" class="item popup-link"><i class="fa fa-search"></i></a>
-                                                <a href="#"><i class="fas fa-link"></i></a>
-                                            </div>
-                                        </div>           
-                                    </div>
-                                </div>
-                                <!-- End Single Item -->
-                                <!-- Single Item -->
-                                <div class="pf-item construction industry">
-                                    <div class="effect-up">
-                                        <img src="assets/img/800x600.png" alt="Thumb">
-                                        <div class="overlay">
-                                            <h4>Wind Energy Plant</h4>
-                                            <div class="link">
-                                                <a href="assets/img/800x600.png" class="item popup-link"><i class="fa fa-search"></i></a>
-                                                <a href="#"><i class="fas fa-link"></i></a>
-                                            </div>
-                                        </div>           
-                                    </div>
-                                </div>
-                                <!-- End Single Item -->
-                                <!-- Single Item -->
-                                <div class="pf-item metarials industry">
-                                    <div class="effect-up">
-                                        <img src="assets/img/800x600.png" alt="Thumb">
-                                        <div class="overlay">
-                                            <h4>Petroleum Tank</h4>
-                                            <div class="link">
-                                                <a href="assets/img/800x600.png" class="item popup-link"><i class="fa fa-search"></i></a>
-                                                <a href="#"><i class="fas fa-link"></i></a>
-                                            </div>
-                                        </div>           
-                                    </div>
-                                </div>
-                                <!-- End Single Item -->
-                                <!-- Single Item -->
-                                <div class="pf-item petroleum renovation">
-                                    <div class="effect-up">
-                                        <img src="assets/img/800x600.png" alt="Thumb">
-                                        <div class="overlay">
-                                            <h4>Construction Work</h4>
-                                            <div class="link">
-                                                <a href="assets/img/800x600.png" class="item popup-link"><i class="fa fa-search"></i></a>
-                                                <a href="#"><i class="fas fa-link"></i></a>
-                                            </div>
-                                        </div>           
-                                    </div>
-                                </div>
-                                <!-- End Single Item -->
-                                <!-- Single Item -->
-                                <div class="pf-item petroleum industry">
-                                    <div class="effect-up">
-                                        <img src="assets/img/800x600.png" alt="Thumb">
-                                        <div class="overlay">
-                                            <h4>Mechanical Engineering</h4>
-                                            <div class="link">
-                                                <a href="assets/img/800x600.png" class="item popup-link"><i class="fa fa-search"></i></a>
-                                                <a href="#"><i class="fas fa-link"></i></a>
-                                            </div>
-                                        </div>           
-                                    </div>
-                                </div>
-                                <!-- End Single Item -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- End Portfolio -->
 
     <!-- Start Team
     ============================================= -->
-    <div class="team-area default-padding bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="site-heading text-center">
-                        <h4>Our Team</h4>
-                        <h2>Meet our experts</h2>
-                        <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="team-items text-center">
-                    <!-- Single Item -->
-                    <div class="col-md-4 single-item">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="social">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <div class="content">
-                                    <h4>Jessica Jones</h4>
-                                    <span>Engineering Officer</span>
-                                    <p>
-                                        Through it examine express promise no. Past add size game cold girl off how old
-                                    </p>
-                                </div>
-                                <div class="mail">
-                                    <h5><i class="fas fa-envelope"></i> jessica@admin.com</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-md-4 single-item">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="social">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <div class="content">
-                                    <h4>Mark Henri</h4>
-                                    <span>Electrical Engineering</span>
-                                    <p>
-                                        Through it examine express promise no. Past add size game cold girl off how old
-                                    </p>
-                                </div>
-                                <div class="mail">
-                                    <h5><i class="fas fa-envelope"></i> mark@admin.com</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-md-4 single-item">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="social">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <div class="content">
-                                    <h4>Ahel Natasha</h4>
-                                    <span>Interior Designer</span>
-                                    <p>
-                                        Through it examine express promise no. Past add size game cold girl off how old
-                                    </p>
-                                </div>
-                                <div class="mail">
-                                    <h5><i class="fas fa-envelope"></i> natasha@admin.com</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Team -->
-
     <!-- Start Achivement
     ============================================= -->
-    <div class="achivement-area bg-fixed shadow dark text-light" style="background-image: url(assets/img/2440x1578.png);">
+    <div class="achivement-area bg-fixed shadow dark text-light" style="background-image: url(assets/img/header1.jpg);">
         <div class="container">
             <div class="row">
                 <div class="achivement-items text-center">
@@ -726,7 +404,7 @@
                                 <i class="fas fa-phone"></i>
                             </div>
                             <div class="info">
-                                <span>Hotline</span> +99-34-8878-9989
+                                <span>Hotline</span> +12139364393
                             </div>
                         </li>
                         <li>
@@ -734,108 +412,10 @@
                                 <i class="fas fa-envelope-open"></i>
                             </div>
                             <div class="info">
-                                <span>Emergency Email</span> info@yourdomain.com
+                                <span>Emergency Email</span> fibrotrav15@gmail.com
                             </div>
                         </li>
                     </ul>
-                </div>
-                <!-- Start Faq -->
-                <div class="col-md-6 faq-area">
-                    <div class="heading">
-                        <h2>Answer & Questions</h2>
-                    </div>
-                    <div class="acd-items acd-arrow">
-                        <div class="panel-group symb" id="accordion">
-
-                            <!-- Single Item -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#ac1">
-                                            Do I need a business plan?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="ac1" class="panel-collapse collapse in">
-                                    <div class="panel-body">
-                                        <p>
-                                            Removing welcomed civility or hastened is. Justice elderly but perhaps expense six her are another passage. Full her ten open fond walk not down.For request general express unknown are.
-                                        </p>
-                                        <p>
-                                             He in just mr door body held john down he. So journey greatly or garrets. Draw door kept do so come on open mean. Estimating stimulated how reasonably precaution diminution she simplicity sir but.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-
-                            <!-- Single Item -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#ac2">
-                                            How long should a business plan be? 
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="ac2" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <p>
-                                            Removing welcomed civility or hastened is. Justice elderly but perhaps expense six her are another passage. Full her ten open fond walk not down.For request general express unknown are.
-                                        </p>
-                                        <p>
-                                             He in just mr door body held john down he. So journey greatly or garrets. Draw door kept do so come on open mean. Estimating stimulated how reasonably precaution diminution she simplicity sir but.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-
-                            <!-- Single Item -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#ac3">
-                                            What goes into a business plan?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="ac3" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <p>
-                                            Removing welcomed civility or hastened is. Justice elderly but perhaps expense six her are another passage. Full her ten open fond walk not down.For request general express unknown are.
-                                        </p>
-                                        <p>
-                                             He in just mr door body held john down he. So journey greatly or garrets. Draw door kept do so come on open mean. Estimating stimulated how reasonably precaution diminution she simplicity sir but.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-
-                            <!-- Single Item -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#ac4">
-                                            Where do I start? 
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="ac4" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <p>
-                                            Removing welcomed civility or hastened is. Justice elderly but perhaps expense six her are another passage. Full her ten open fond walk not down.For request general express unknown are.
-                                        </p>
-                                        <p>
-                                             He in just mr door body held john down he. So journey greatly or garrets. Draw door kept do so come on open mean. Estimating stimulated how reasonably precaution diminution she simplicity sir but.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Item -->
-                        </div>
-                    </div>
                 </div>
                 <!-- End Faq -->
             </div>
@@ -845,193 +425,9 @@
 
     <!-- Start Testimonials
     ============================================= -->
-    <div class="testimonials-area bg-gray default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="site-heading less-info text-center">
-                        <h4>Customer Review</h4>
-                        <h2>What People Say</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="testimonial-items testimonial-carousel owl-carousel owl-theme">
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x800.png" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <p>
-                                    Awesome so many in hung easy find well up. So of exquisite my an explained remainder. Dashwood denoting securing be on perceive my laughing so.
-                                </p>
-                                <h4>Ahel Natasha</h4>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x800.png" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <p>
-                                    Limits marked led silent dining her she far. Sir but elegance marriage dwelling likewise position old pleasure men. Dissimilar themselves simplicity. 
-                                </p>
-                                <h4>Jessica Jones</h4>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x800.png" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <p>
-                                    Awesome so many in hung easy find well up. So of exquisite my an explained remainder. Dashwood denoting securing be on perceive my laughing so.
-                                </p>
-                                <h4>Mark Henri</h4>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- End Testimonials -->
 
     <!-- Start Blog
     ============================================= -->
-    <div class="blog-area default-padding bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="site-heading text-center">
-                        <h4>Our Blog</h4>
-                        <h2>Latest News</h2>
-                        <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="blog-items">
-                    <!-- Single Item -->
-                    <div class="col-md-4">
-                        <div class="single-item">
-                            <div class="thumb">
-                                <a href="#">
-                                    <img src="assets/img/800x600.png" alt="Thumb">
-                                </a>
-                                <div class="author">
-                                    <div class="thumb">
-                                        <img src="assets/img/100x100.png" alt="Author">
-                                    </div>
-                                    <div class="meta">
-                                        <h5>Admin</h5>
-                                        <span>25 Mar, 2019</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>
-                                    <a href="#">Longer mrs sudden talent become</a>
-                                </h4>
-                                <p>
-                                    On assistance he cultivated considered frequently. Person how having tended direct own day man. Saw sufficient indulgence one own you inquietude sympathize. 
-                                </p>
-                                <a href="#">Read More <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-md-4">
-                        <div class="single-item">
-                            <div class="thumb">
-                                <a href="#">
-                                    <img src="assets/img/800x600.png" alt="Thumb">
-                                </a>
-                                <div class="author">
-                                    <div class="thumb">
-                                        <img src="assets/img/100x100.png" alt="Author">
-                                    </div>
-                                    <div class="meta">
-                                        <h5>Admin</h5>
-                                        <span>12 Apr, 2019</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>
-                                    <a href="#">Conduct esteems cottage pasture we winding</a>
-                                </h4>
-                                <p>
-                                    On assistance he cultivated considered frequently. Person how having tended direct own day man. Saw sufficient indulgence one own you inquietude sympathize. 
-                                </p>
-                                <a href="#">Read More <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-md-4">
-                        <div class="single-item">
-                            <div class="thumb">
-                                <a href="#">
-                                    <img src="assets/img/800x600.png" alt="Thumb">
-                                </a>
-                                <div class="author">
-                                    <div class="thumb">
-                                        <img src="assets/img/100x100.png" alt="Author">
-                                    </div>
-                                    <div class="meta">
-                                        <h5>Admin</h5>
-                                        <span>19 Nov, 2019</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>
-                                    <a href="#">Considered discovered projecting</a>
-                                </h4>
-                                <p>
-                                    On assistance he cultivated considered frequently. Person how having tended direct own day man. Saw sufficient indulgence one own you inquietude sympathize. 
-                                </p>
-                                <a href="#">Read More <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Item -->
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- End Blog -->
     @endsection
