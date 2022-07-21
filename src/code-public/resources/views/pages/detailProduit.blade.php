@@ -60,7 +60,7 @@ i
                        
                        
                         <input type="hidden" name="produit" value="{{$value->nom_produit}}" class="form-control">
-                        <input type="submit"  name="submit" value="ddddhhh">
+                        
                         <a  href="{{route('login')}}" class="btn btn-dark border btn-md" data-animation="animated slideInUp">Acheter</a>
                     </form>
                    
