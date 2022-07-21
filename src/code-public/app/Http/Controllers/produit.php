@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Http\Middleware\session as MiddlewareSession;
 use Illuminate\Contracts\Session\Session as SessionSession;
 use Session;
+use App\Models\ProduitModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
