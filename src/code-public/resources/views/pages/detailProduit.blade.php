@@ -67,7 +67,7 @@
                        
                         <input type="hidden" name="produit" value="{{$value->nom_produit}}" class="form-control">
                         
-                        <a  href="{{route('login')}}" class="btn btn-dark border btn-md" data-animation="animated slideInUp">Acheter</a>
+                        <a  href="https://api.whatsapp.com/send/?phone={{$tele}}&text={{$text}}&type=phone_number&app_absent=0" class="btn btn-dark border btn-md" data-animation="animated slideInUp">Acheter</a>
                     </form>
                    
                 </div>
