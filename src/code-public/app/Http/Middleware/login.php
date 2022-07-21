@@ -19,7 +19,7 @@ class login
 
 
         if(!session()->has('user')){
-        return redirect('login');
+        return redirect('loginn');
         }
         return $next($request);
     }
