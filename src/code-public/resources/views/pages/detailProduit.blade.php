@@ -54,14 +54,25 @@ i
                     <p>
                         {{$value->prix_produit}}  
                     </p>
-                   
-                    <form method="post" action="" >
-                       
-                       
+                @php
+                    $produit=$value->nom_produit;
+                    $session= session("user");
+                   $nom= $session["nom"];
+                   $tele= $session["tele"];
+
+                   $text="hello".$nom." je veux ce produit s'il vous plait ".$produit;
+
+                @endphp   
+                
+                    
+
+                    <form method="post" action="">
+                        {{-- https://api.whatsapp.com/send/?phone=2112122222&text=hellooo&type=phone_number&app_absent=0 --}}
                        
                         <input type="hidden" name="produit" value="{{$value->nom_produit}}" class="form-control">
                         <input type="submit"  name="submit" value="ddddhhh">
-                        <a  href="{{route('login')}}" class="btn btn-dark border btn-md" data-animation="animated slideInUp">Acheter</a>
+                        <a  href="https://api.whatsapp.com/send/?phone=212659558127&text={{$text}}&type=phone_number&app_absent=0"
+                         class="btn btn-dark border btn-md" data-animation="animated slideInUp">Acheter</a>
                     </form>
                    
                 </div>

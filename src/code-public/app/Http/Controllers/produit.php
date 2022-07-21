@@ -1,6 +1,6 @@
 <?php
-
 namespace App\Http\Controllers;
+use App\Models\ProduitModel;
 use Session;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -26,17 +26,13 @@ class produit extends Controller
     return view('pages.login');
   }
     function afficher_produit(){
-
-        $produits=DB::table('produits')
-          ->select("*")
-          ->get();
-         
+      $produits = ProduitModel::all();
+      
           return view("pages.produit",compact("produits"));
       }
       function afficher_detail_produit($id){
 
-       $detailProduit=DB::table('produits')
-      ->where('id_produit',$id)
+       $detailProduit=ProduitModel::where('id_produit',$id)
       ->select("*")
       ->get();
       return view("pages.detailProduit",compact("detailProduit")); 
@@ -47,7 +43,7 @@ class produit extends Controller
         // $nom =$request->input('nom');
         // $tele=$request->input('tele');
         // $produit=$request->input('produit');
-        // $text="hello".$nom."je veux ce produit s'il vous plait".$produit;
+        $text="hello".$nom."je veux ce produit s'il vous plait".$produit;
         // if ($request->input('tele')) {
             
             
