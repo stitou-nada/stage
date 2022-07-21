@@ -26,47 +26,20 @@
 
     <!-- Start Team
     ============================================= -->
-    
-    <div class="team-area default-padding bottom-less">
+    <div class="portfolio-area circle-icon default-padding bottom-less">
         <div class="container">
             <div class="row">
-                
-            
-            
-                <h1></h1>
-
-
-               
-{{-- @forelse ($session as $d)
-
-         {{$d['nom']}}
-             
-         @empty
-             
-         @endforelse --}}
-                
-{{-- 
-         @if (session('user')==null)
-        <h1>session is null</h1>
-             
-         @else
-             
-           {{$session = session('user');}}
-
-
-           
-           {{print_r($session['nom']);}}
-         @endif
-                 --}}
-                
+    <div class="row masonary">
+        <div id="portfolio-grid" class="portfolio-items col-3">
+            <div class="portfolio-items">
                 
                 @forelse ($produits as $value)
                 
-                <div class="team-items text-center">
+                <div class="pf-item metarials renovation">
                     <!-- Single Item -->
-                    <div class="col-md-4 single-item">
+                    {{-- <div class="col-md-4 single-item"> --}}
                         <div class="item">
-                            <div class="thumb">
+                            <div class="effect-up">
                                 <img src="{{asset('assets/produits')}}/{{$value->photo_produit}}" alt="Thumb">
                                 <div class="social">
                                     
@@ -80,7 +53,7 @@
                                 </div>
                                 
                             </div>
-                        </div>
+                        {{-- </div> --}}
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
@@ -94,5 +67,7 @@
     </div>
     <!-- End Team -->
 
+            </div>
+        </div></div>
     
 @endsection

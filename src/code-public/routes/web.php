@@ -20,6 +20,7 @@ Route::get('/index', function () {
 
 
 route::get('/login',[produit::class,'login'])->name('login');
+route::get('/logout',[produit::class,'logout'])->name('logout');
 route::get('/produit',[produit::class,'afficher_produit']);
 route::get('/detailProduit/{id}',[produit::class,'afficher_detail_produit'])->middleware('login');
 route::post('/msg',[produit::class,'message_wh']);

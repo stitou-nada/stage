@@ -20,14 +20,21 @@ class produit extends Controller
   //   'tele'=>$tele
   // ];
     Session::put("user",$nom);
-    // return view('pages.index');
+    return view('pages.index');
 
+  }
+
+  function logout(Request $request){
+    $request->session()->forget('user');
+    return redirect('index');
   }
 
   function login(){
 
     return view('pages.login');
   }
+
+  
     function afficher_produit(){
       $produits = ProduitModel::all();
       

@@ -83,8 +83,14 @@
                           
                         @endphp
                
-               <li class=""><a href="{{route('login')}}">{{$session['nom']}}</a></li>
-                       
+     
+
+               <li class="dropdown">
+                <a href="" class="dropdown-toggle active" data-toggle="dropdown" >{{$session['nom']}}</a>
+                <ul class="dropdown-menu">
+                    <li><a href='{{route('logout')}}'>déconnexion</a></li>
+                 
+                </ul>
               @else
                
                <li class="btn"><a href="{{route('login')}}">Connexion</a></li>
