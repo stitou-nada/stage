@@ -4,8 +4,7 @@
          
     
 
-    <!-- Start Breadcrumb 
-    ============================================= -->
+   
   
     <div class="breadcrumb-area shadow dark bg-fixed text-center text-light" style="background-image: url(assets/img/header2.jpg);">
         <div class="container">
@@ -30,13 +29,10 @@
     <!-- End Breadcrumb -->
 
 
-    <!-- Start Team
+    <!-- Start Team-->
 
-i
-    ============================================= -->
     
-      <!-- Start Our About
-    ============================================= -->
+      
     <div class="about-area default-padding inc-more">
         <div class="container">
             <div class="row">
@@ -54,10 +50,20 @@ i
                     <p>
                         {{$value->prix_produit}}  
                     </p>
-                   
-                    <form method="post" action="" >
-                       
-                       
+                @php
+                    $produit=$value->nom_produit;
+                    $session= session("user");
+                   $nom= $session["nom"];
+                   $tele= $session["tele"];
+
+                   $text="hello".$nom." je veux ce produit s'il vous plait ".$produit;
+
+                @endphp   
+                
+                    
+
+                    <form method="post" action="">
+                        {{-- https://api.whatsapp.com/send/?phone=2112122222&text=hellooo&type=phone_number&app_absent=0 --}}
                        
                         <input type="hidden" name="produit" value="{{$value->nom_produit}}" class="form-control">
                         
