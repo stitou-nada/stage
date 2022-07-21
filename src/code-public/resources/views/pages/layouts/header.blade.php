@@ -3,7 +3,7 @@
     <div class="top-bar-area inc-border bg-dark">
         <div class="container">
             <div class="row">
-                <div class="col-md-9 address-info text-left">
+                <div class="col-md-12 address-info text-left">
                     <div class="info box">
                         <ul>
                             <li>
@@ -11,7 +11,7 @@
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
                                 <div class="info">
-                                    <span>Address</span> California, TX 70240
+                                    <span>Address</span> Complexe ikhlas Lot 84, 2éme Etage Appt 13 -Tanger
                                 </div> 
                             </li>
                             <li>
@@ -19,7 +19,7 @@
                                     <i class="fas fa-envelope-open"></i>
                                 </div>
                                 <div class="info">
-                                    <span>Email</span> Info@gmail.com
+                                    <span>Email</span> fibrotrav15@gmail.com
                                 </div>
                             </li>
                             <li>
@@ -27,7 +27,7 @@
                                     <i class="fas fa-phone"></i>
                                 </div>
                                 <div class="info">
-                                    <span>Phone</span> +123 456 7890
+                                    <span>Phone</span> +212539364393 / +212539364394
                                 </div>
                             </li>
                         </ul>

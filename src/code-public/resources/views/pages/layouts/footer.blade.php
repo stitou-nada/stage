@@ -10,7 +10,7 @@
                         <ul>
                             <li>
                                 <i class="fas fa-envelope"></i> 
-                                <p>Email <span><a href="mailto:support@validtheme.com">support@validtheme.com</a></span></p>
+                                <p>Email <span><a href="mailto:support@validtheme.com">fibrotrav15@gmail.com</a></span></p>
                             </li>
                             <li>
                                 <i class="fas fa-map"></i> 
@@ -19,7 +19,7 @@
                         </ul>
                         <div class="bottom">
                             <h4>Call Us Today</h4>
-                            <span>+123 456 7890 </span>
+                            <span>+121539364393 </span>
                         </div>
                     </div>
                 </div>
@@ -83,14 +83,12 @@
                     <div class="f-item address">
                         <h4>Opening Hours</h4>
                         <ul>
-                            <li> <span> Mon - Tues :  </span>
-                              <div class="pull-right"> 6.00 am - 10.00 pm </div>
+                            <li> <span> Mon - Thurs  :  </span>
+                              <div class="pull-right"> 9.00 am - 16.00 pm </div>
                             </li>
-                            <li> <span> Wednes - Thurs :</span>
-                              <div class="pull-right"> 8.00 am - 6.00 pm </div>
-                            </li>
+                            
                             <li> <span> Sun : </span>
-                              <div class="pull-right closed"> Closed </div>
+                              <div class="pull-right closed"> 9.00 am - 13.00 pm </div>
                             </li>
                         </ul>
                         <div class="bottom">
@@ -115,7 +113,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>&copy; Copyright 2019. All Rights Reserved by <a href="#">validthemes</a></p>
+                    <p>&copy; Copyright 2021. All Rights Reserved by <a href="#">validthemes</a></p>
                 </div>
                 <div class="col-md-6 text-right link">
                     <ul>
