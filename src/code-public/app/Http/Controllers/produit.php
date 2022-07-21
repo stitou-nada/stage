@@ -20,7 +20,7 @@ class produit extends Controller
   //   'tele'=>$tele
   // ];
     Session::put("user",$nom);
-    return view('pages.index');
+    return view ('pages.index');
 
   }
 
