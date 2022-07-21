@@ -56,7 +56,7 @@
                    $nom= $session["nom"];
                    $tele= $session["tele"];
 
-                   $text="hello".$nom." je veux ce produit s'il vous plait ".$produit;
+                   $text="hello ".$nom." je veux ce produit s'il vous plait ".$produit;
 
                 @endphp   
                 
