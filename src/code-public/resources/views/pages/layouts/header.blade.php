@@ -127,8 +127,6 @@
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >Acheter</a>
                             <ul class="dropdown-menu">
                                 <li><a href='produit'>produit</a></li>
-                                <li><a href="team-2.html">panier</a></li>
-                                <li><a href="team-3.html">paypal</a></li>
                                 <li><a href="team-3.html">login</a></li>
                             </ul>
                         </li>
